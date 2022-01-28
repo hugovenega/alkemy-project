@@ -28,7 +28,7 @@ export default function Home({ operations }: OperationsType) {
 export async function getServerSideProps() {
   try {
     const res = await fetch(
-      'https://alkemy-challenge-2022-git-basic-presentation-hugovenega.vercel.app/api/historyOperations.controller'
+      'https://alkemy-project.vercel.app/api/historyOperation.controller'
     )
     const data = await res.json()
     return {
