@@ -1,12 +1,5 @@
 import { Operation } from '@prisma/client'
-
-interface OperationsType {
-  operations: {
-    data: {
-      getUserOperations: Operation[]
-    }
-  }
-}
+import { OperationsType } from '../lib/types'
 
 export default function CardBalance({ operations }: OperationsType) {
   const filteredIncomeOperations = operations.data.getUserOperations.filter(
