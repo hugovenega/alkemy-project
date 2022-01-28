@@ -9,3 +9,25 @@ datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
+
+model Operation {
+  authorId Int?
+  id       Int        @id @default(autoincrement())
+  concept  String
+  amount   Decimal
+  type     Type       @default(IN) 
+  Date     String   
+  User     User?      @relation(fields: [authorId], references: [id])
+}
+
+model User {
+  id       Int     @id @default(autoincrement())
+  username  String @unique
+  email     String @unique
+  password  String
+  Operation Operation[]
+}
+enum Type {
+  IN 
+  OUT
+}
