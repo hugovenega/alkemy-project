@@ -28,7 +28,7 @@ const NewOperationComponent = () => {
     const resData = await response.json()
     console.log(resData)
     if (resData) {
-      router.push('/')
+      router.reload()
     }
   }
 
