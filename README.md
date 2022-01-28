@@ -1,34 +1,75 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Budget handler
 
-## Getting Started
+status: main branch -----> finished.
+Take a look -----> https://alkemy-project.vercel.app/
 
-First, run the development server:
+## Tools in use:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- Nextjs Framework
+- Typescript
+- Styles: Tailwind
+- Database: Prisma2 hosted on aws
+- Linter: ESLint
+- Formatter: Prettier
+- Git Hooks: Husky
+## How to use?
+Upon entering you will see a balance chart, a form for creating new operations and a table.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### To create a new operation
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Fill in the changes, if you do not change its default value in the input type, the type of operation will be 'IN'
+'In' are the operations where money enters our budget.
+'Out' are the operations where the money goes out of our budget.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### To change the values ​​of our operations.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Click on the operation you want to edit, this will open a small window where the fields that are possible to edit will be. (The type of operation cannot be changed.)
+When changing the required fields press the 'Edit' button.
 
-## Learn More
+### To delete an operation
 
-To learn more about Next.js, take a look at the following resources:
+Click on the operation you want to delete and press the 'Delete' button
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+This is a project for the Alkemy February 2022 application
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# Manejador de presupuesto
+
+status: rama principal -----> finalizada.
+Hecha un vistazo -----> https://alkemy-project.vercel.app/
+
+## Herramientas en uso:
+
+- Framework Nextjs
+- Typescript
+- Estilos: Tailwind
+- Base de datos: Prisma2 alojada en aws
+- Linter: ESLint
+- Formateador: Prettier
+- Git Hooks: Husky
+## ¿Cómo se usa?
+Al ingresar verás una carta de balance, un formulario para la creación de nuevas operaciones y una tabla.
+
+### Para crear una nueva operación
+
+Rellena los cambios, si en la entrada de tipo no cambias su valor por defecto el tipo de operación será de 'IN'
+'In' son las operaciones donde ingresa dinero a nuestro presupuesto.
+'Out' son las operaciones donde el dinero egresa de nuestro presupuesto.
+
+### Para cambiar los valores de nuestras operaciones.
+
+Haz click a la operacion que deseas editar, esto abrirá una pequeña ventana en donde estarán los campos que son posibles editar. (El tipo de operación no puede ser cambiado).
+Al cambiar los campos requeridos oprime el boton 'Edit'.
+
+### Para eliminar una operacion
+
+Haz click en la operación que deseas eliminar y presiona el botón 'Delete'
+
+---
+
+Esto es un proyecto para la postulación de Alkemy febrero de 2022
