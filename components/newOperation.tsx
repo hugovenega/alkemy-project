@@ -1,6 +1,5 @@
 import router from 'next/router'
 import React, { useState } from 'react'
-import 'react-datepicker/dist/react-datepicker.css'
 
 const NewOperationComponent = () => {
   const [data, setData] = useState({
