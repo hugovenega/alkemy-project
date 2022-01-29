@@ -1,6 +1,7 @@
 # Budget handler
 
 status: main branch -----> finished.
+\
 Take a look -----> https://alkemy-project.vercel.app/
 
 ## Tools in use:
@@ -12,7 +13,9 @@ Take a look -----> https://alkemy-project.vercel.app/
 - Linter: ESLint
 - Formatter: Prettier
 - Git Hooks: Husky
+
 ## How to use?
+
 Upon entering you will see a balance chart, a form for creating new operations and a table.
 
 ### To create a new operation
@@ -41,6 +44,7 @@ This is a project for the Alkemy February 2022 application
 # Manejador de presupuesto
 
 status: rama principal -----> finalizada.
+\
 Hecha un vistazo -----> https://alkemy-project.vercel.app/
 
 ## Herramientas en uso:
@@ -52,7 +56,9 @@ Hecha un vistazo -----> https://alkemy-project.vercel.app/
 - Linter: ESLint
 - Formateador: Prettier
 - Git Hooks: Husky
+
 ## ¿Cómo se usa?
+
 Al ingresar verás una carta de balance, un formulario para la creación de nuevas operaciones y una tabla.
 
 ### Para crear una nueva operación

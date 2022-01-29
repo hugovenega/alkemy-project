@@ -27,7 +27,6 @@ export default async function operationHistory(
     orderBy: {
       Date: 'desc',
     },
-    take: 10,
   })
   return res.status(200).json({ getUserOperations })
 }
